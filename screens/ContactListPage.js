@@ -7,6 +7,8 @@ import contacts from '../data/Contacts.json';
 import ContactDetailsPage from "./ContactDetailsPage";
 
 export default class ContactListPage extends Component {
+    static navigationOptions = {title:"Contacts"};
+
     onPress(contact){
         this.props.navigation.navigate(
             'ContactDetailsPage',
