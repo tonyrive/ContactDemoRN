@@ -1,4 +1,4 @@
-# ContactDemoRN
+# Contact Demo app in React Native
 
 Demo app to demostrate use of React Native.<br/>
 
